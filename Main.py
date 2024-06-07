@@ -3,7 +3,7 @@ Budegt_Data
 import pandas as pd
 
 #Load the financial dataset
-df = pd.read_csv ("C:/Users/Tyler/Downloads/budget_data (1).csv")
+df = pd.read_csv ("34,2: /budget_data (1).csv")
 
 #Print the first 5 rows of the dataset
 print(df.head())
@@ -25,14 +25,14 @@ print(f'Total Months: {total_months}')
 print(f'Net Total: {net_total}')
 print(f'Average Change: {average_change}')
 
-Election_Data
-#election data.csv.csv 
+
+#Election_Data
 
 import csv 
 import collections
 
 # Load the election data from the CSV file
-with open('C:/Users/Tyler/AppData/Local/Temp/2b335793-6a5c-4c2b-8cec-7296d2ee54ff_Starter_Code (1).zip.4ff/Starter_Code/PyPoll/Resources/election_data.csv', 'r') as csvfile:
+with open('') as csvfile:64,2: /election_data.csv
     reader = csv.reader(csvfile)
     next(reader)  # Skip the header row
     data = [row for row in reader]
